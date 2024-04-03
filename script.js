@@ -74,7 +74,7 @@ let participantes = [
     dataIncricao: new Date(2024, 0, 28, 20, 0),
     dataCheckIn: new Date(2024, 3, 10, 8, 10)
   },
-  
+
   {
     nome: "Amanda Pereira",
     email: "amandapereira@example.com",
@@ -92,7 +92,7 @@ const atualizarLista = (participantes) => {
   
   document
   .querySelector('tbody')
-  .innerHTML = criarNovoParticipante(participante)
+  .innerHTML = criarNovoParticipante(participantes[2])
 }
 
-atualizarLista(participante)
+atualizarLista(participantes)
