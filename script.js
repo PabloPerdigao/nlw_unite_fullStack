@@ -84,6 +84,13 @@ let participantes = [
 ];
 
 const criarNovoParticipante = (participante) => {
+  const dataInscricao = datjs(Date.now()).to 
+  (participante.dataInscricao)
+
+  const dataCheckIn = datjs(Date.now()).to 
+  (participante.dataCheckIn)
+
+
   return `
   <tr>
     <td>
