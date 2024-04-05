@@ -16,7 +16,7 @@ let participantes = [
     nome: "Pablo Perdigão",
     email:"pabloperdigao@gmail.com" ,
     dataInscricao: new Date( 2024, 3, 22, 19, 28),
-    dataCheckIn: new Date( 2024, 1, 4, 21,12 )
+    dataCheckIn: new Date( 2024, 1, 4, 21, 12)
   },
 
   {
