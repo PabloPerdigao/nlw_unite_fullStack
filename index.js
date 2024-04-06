@@ -9,88 +9,85 @@ const participante = {
 }
 */
 
-//array 
-
 let participantes = [
   {
     nome: "Pablo Perdigão",
-    email:"pabloperdigao@gmail.com" ,
-    dataInscricao: new Date( 2024, 3, 22, 19, 28),
-    dataCheckIn: new Date( 2024, 1, 4, 21, 12)
+    email: "pablo@gmail.com",
+    dataInscricao: new Date(2024, 3, 20, 19, 28),
+    dataCheckIn: new Date(2024, 1, 4, 21, 12)
   },
 
   {
     nome: "Reginaldo Perdigão Ferreira",
     email: "regiperdigao@gmail.com",
-    dataInscricao: new Date(2024, 5, 15, 11, 45),
-    dataCheckIn: new Date(2024, 2, 9, 22, 7)
+    dataInscricao: new Date(2024, 5, 13, 11, 45),
+    dataCheckIn: new Date(2024, 2, 7, 22, 7)
   },
 
   {
     nome: "Ana Silva",
     email: "anasilva@example.com",
-    dataInscricao: new Date(2024, 1, 10, 8, 30),
-    dataCheckIn: new Date(2024, 3, 2, 18, 15)
+    dataInscricao: new Date(2024, 1, 8, 8, 30),
+    dataCheckIn: new Date(2024, 3, 1, 18, 15)
   },
 
   {
     nome: "João Santos",
     email: "joaosantos@example.com",
-    dataInscricao: new Date(2024, 0, 5, 14, 20),
-    dataCheckIn: new Date(2024, 3, 7, 10, 45)
+    dataInscricao: new Date(2024, 0, 2, 14, 20),
+    dataCheckIn: new Date(2024, 3, 5, 10, 45)
   },
 
   {
     nome: "Maria Oliveira",
     email: "mariaoliveira@example.com",
-    dataInscricao: new Date(2024, 3, 12, 9, 10),
-    dataCheckIn: new Date(2024, 3, 20, 16, 30)
+    dataInscricao: new Date(2024, 3, 10, 9, 10),
+    dataCheckIn: new Date(2024, 3, 21, 16, 30)
   },
 
   {
     nome: "Carlos Souza",
     email: "carlossouza@example.com",
-    dataInscricao: new Date(2024, 2, 18, 17, 50),
-    dataCheckIn: new Date(2024, 3, 5, 14, 0)
+    dataInscricao: new Date(2024, 2, 16, 17, 50),
+    dataCheckIn: new Date(2024, 3, 2, 14, 0)
   },
 
   {
     nome: "Juliana Lima",
     email: "julianalima@example.com",
-    dataInscricao: new Date(2024, 3, 1, 10, 5),
-    dataCheckIn: new Date(2024, 3, 25, 9, 20)
+    dataInscricao: new Date(2024, 2, 29, 10, 5),
+    dataCheckIn: new Date(2024, 3, 26, 9, 20)
   },
 
   {
     nome: "Rafaela Costa",
     email: "rafaelacosta@example.com",
-    dataInscricao: new Date(2024, 2, 7, 13, 15),
-    dataCheckIn: new Date(2024, 3, 15, 12, 35)
+    dataInscricao: new Date(2024, 2, 5, 13, 15),
+    dataCheckIn: new Date(2024, 3, 14, 12, 35)
   },
 
   {
     nome: "Felipe Martins",
     email: "felipemartins@example.com",
-    dataInscricao: new Date(2024, 0, 28, 20, 0),
-    dataCheckIn: new Date(2024, 3, 10, 8, 10)
+    dataInscricao: new Date(2024, 0, 26, 20, 0),
+    dataCheckIn: new Date(2024, 3, 12, 8, 10)
   },
 
   {
     nome: "Amanda Pereira",
     email: "amandapereira@example.com",
-    dataInscricao: new Date(2024, 1, 8, 11, 55),
-    dataCheckIn: new Date(2024, 3, 28, 15, 45)
+    dataInscricao: new Date(2024, 1, 6, 11, 55),
+    dataCheckIn: new Date(2024, 3, 30, 15, 45)
   }
 ];
 
 const criarNovoParticipante = (participante) => {
-  const dataInscricao = datjs(Date.now()).to 
-  (participante.dataInscricao)
+  const dataInscricao = dayjs(Date.now()) 
+  .to(participante.dataInscricao)
 
-  const dataCheckIn = datjs(Date.now()).to 
-  (participante.dataCheckIn)
-
-
+  const dataCheckIn = dayjs(Date.now()) 
+  .to(participante.dataCheckIn)
+  
   return `
   <tr>
     <td>
@@ -102,10 +99,10 @@ const criarNovoParticipante = (participante) => {
         ${participante.email}
       </small>
     </td>
-      <td>${participante.dataInscricao}</td>
-      <td>${participante.dataCheckIn} </td>
+      <td>${dataInscricao}</td>
+      <td>${dataCheckIn}</td>
   </tr>
-  `
+  `       
 }
 
 const atualizarLista = (participantes) => {
