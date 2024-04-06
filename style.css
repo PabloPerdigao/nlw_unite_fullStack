@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --border: 1px solid #ffffff1a;
+}
+
 /* CONFIGURAÇÃO DA FONTE */
 body, table, input, button {
   font: 100 16px/140% 'Roboto', sans-serif;
@@ -15,6 +19,40 @@ body {
   background-color: #121214;
   color: white;
 }
+
+.container  {
+  max-width: 690px;
+  margin: 0 auto;
+  padding: 20px 32px;
+}
+
+/* CONFIGURAÇÃO DO CABEÇALHO */
+header {
+ padding: 20px;
+}
+
+/*CONFIGURAÇÃO DAS LINHAS*/
+form {
+  border: var(--border);
+  border-inline: none;
+  padding: 20px 0;
+}
+
+fieldset {
+  border: none;
+}
+
+/*CONFIGURAÇÃO DE ESPAÇAMENTO DO FORMULÁRIO*/
+fieldset > div {
+  display: flex;
+  gap: 12px;
+}
+
+.input-wrapper {
+  flex: 1;
+
+}
+
 
 /* CONFIGURAÇÃO DA TABELA */
 table {
@@ -31,7 +69,7 @@ tbody td {
 }
 
 tbody td {
-  border-top: 1px solid #ffffff1a;
+  border-top: var(--border);
 
   font-size: 13px;
   line-height: 15px;
