@@ -74,6 +74,16 @@ fieldset legend, section h2 {
   padding-bottom: 16px;
 }
 
+/* CONFIGURAÇÃO DO BOTÃO */
+tbody td button {
+  all: unset;
+  color: #9FF9CC;
+}
+
+tbody td button:hover {
+  text-decoration: underline;
+}
+
 /*CONFIGURAÇÃO DE ESTILO BOTÃO*/
 fieldset button {
   width: fit-content;
@@ -81,9 +91,14 @@ fieldset button {
   background: #f48f56;
   border-radius: 10px;
   padding: 7px 20px;
-
+  
   font:  700 12px/24px 'Roboto', sans-serif;
   color: #00292e;  
+}
+
+button:hover {
+  background: #e37433;
+  color: #e1e1e6;
 }
 
 .lista-participantes {
@@ -109,7 +124,7 @@ thred th,
 tbody td {
   padding: 12px 16px;
 }
-
+/* CONFIGURAÇÃO DOS TEXTOS */
 tbody td {
   border-top: var(--border);
 
@@ -118,29 +133,17 @@ tbody td {
   color: #c4c4cc;
 }
 
+/*CONFIG TÍTULO*/
 tbody td strong {
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 16px;
   font-weight: 600;
 }
 
-/* CONFIGURAÇÃO DO E-MAIL */
+/* CONFIG E-MAIL */
 tbody td small {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 16px;
 }
 
-/* CONFIGURAÇÃO DO BOTÃO */
-tbody td button {
-  all: unset;
-  color: #9f9cc9;
-}
-
-tbody td button:hover {
-  text-decoration: underline;
-}
-
-button:hover {
-  background: #e37433;
-}
