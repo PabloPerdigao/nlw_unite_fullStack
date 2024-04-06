@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NLW Unite</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NLW Unite</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
+    <script>
+      dayjs.extend(window.dayjs_plugin_relativeTime)
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+    <script>
+      dayjs.locale('pt-br')
+    </script>
+
+    <script type="text/javascript" src="./index.js" defer=""></script>
+
+  </head>
+  <body>
   <div>
 
-   <script src="./script.js"></script>
-
-   <script 
-     src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js">
-   </script>
-
-   <script 
-     src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js">
-   </script>
-
-   <script 
-     src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js">
-   </script>
-
-   <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
-   <script>dayjs.locale('pt-br')</script>
-
-   <script>dayjs.extend(window.dayjs_plugin_relativeTime)</script>
-
+    
+    
+    
     <table width="100%">
       <thead style="text-align: left;">
         <tr>
           <th>Participantes</th>
           <th>Data da incrição</th>
-          <th>data do check-in</th>
+          <th>Data do check-in</th>
         </tr>
       </thead>
-  
-    <tbody>
-      <tr>
+      
+      <tbody>
+        <tr>
         <td>
           <strong>
-            Diego Fernandes
+            Pabo Perdigão
           </strong>
           <br>
           <small>
-            diego@gmail.com
+            pablo@gmail.com
           </small>
         </td>
         <td>há 3 dias</td>
         <td>há 3 minutos</td>
       </tr>
     </tbody>
-  
-    </table>
-  </div>
+    
+  </table>
+</div>
 </body>
 </html>
