@@ -141,3 +141,6 @@ tbody td button:hover {
   text-decoration: underline;
 }
 
+button:hover {
+  background: #e37433;
+}
