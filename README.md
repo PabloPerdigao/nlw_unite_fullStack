@@ -35,11 +35,12 @@ Este projeto foi desenvolvido com as seguintes linguagens, tecnologias e ferrame
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+![Day.js](https://img.shields.io/badge/Day.js-%23ffffff.svg?style=for-the-badge&logo=javascript&logoColor=6a6aff)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-%23FF7B54.svg?style=for-the-badge&logo=git&logoColor=white)
 ![VsCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
 <br/>
 
 
@@ -50,7 +51,7 @@ Este projeto foi desenvolvido com as seguintes linguagens, tecnologias e ferrame
 
   Esse é o projeto da trilha de HTML + CSS + JAVASCRIPT.
   Meu primeiro projeto de um evento da Next Level Week e foi sensacional.
-  
+
   A trilha é principalmente pra quem está começando,mas a escolhi para revisar alguns conceitos e trabalhar com a biblioteca day.js... que serviu para fazer o ajustes na nosa lógica de programação em JavaScript, analisando, manipulando e formatando datas e horas de acordo com o tempo em que foram feitas as incrições e check-ins dos participantes.
 
 [➡️😉Acesse o projeto finalizado online](https://pabloperdigao.github.io/nlw_unite_fullStack/)
